@@ -1,0 +1,103 @@
+body{
+  background-color:black;
+  margin: 0px;
+}
+
+/* Screen optimization */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+/* Top header flexbox */
+.navbar{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100px;
+width: 100%;
+background-color:lightskyblue
+}
+/* Header text */
+.art{
+font-size: 80px;
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+-webkit-text-stroke: 4px black;
+}
+
+/* Heading */
+h1{
+  font-size:30;
+  font:"Times New Roman";
+  color:white;
+  text-align:center;
+}
+
+/* links */
+div{
+  text-align:center;
+  margin:30px;
+}
+div:not(:last-child) {
+margin-right: 40px;
+}
+a:link {
+  color: red;
+}
+a:visited {
+  color: green;
+}
+/* Color when hovering over */
+a:hover {
+  color: hotpink;
+}
+
+/* Video */
+video{
+  display:block;
+  margin:auto;
+}
+
+/* Table of Ratings */
+table {
+  font:"Times New Roman";
+  color:white;
+  text-align:center;
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th {
+  border: 1px solid white;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Form */
+form{
+  text-align:center;
+}
+form label{
+  font-size:20;
+  font:"Times New Roman";
+  color:white;
+  text-align:center;
+}
+div p{
+  font:"Times New Roman";
+  color:white;
+  text-align:center;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Bottom footer flexbox */
+.footer{
+  display: flex;
+  height: 50px;
+  width: 100%;
+  background-color:lightskyblue;
+  color:black;
+  justify-content: center;
+}

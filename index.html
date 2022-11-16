@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="homepage.css" type="text/css">
+    <title>Picture Gallery</title>
+</head>
+<body>
+    <!--Top header flexbox-->
+    <nav class = "navbar">
+        <div class = "art">Picture Gallery of Art</div>
+    </nav>
+    <h1>From 10 Seconds To 1 minute To 10 Minutes</h1>
+    
+    <!--Links-->
+    <div>
+        <a  href="10 seconds.html">Photo Gallery of 10 Seconds</a>
+    </div>
+    <div>
+        <a  href="1 minute.html">Photo Gallery of 1 Minute</a>
+    </div>
+    <div>
+        <a  href="10 minutes.html">Photo Gallery of 10 Minutes</a>
+    </div>
+
+    <!--Video-->
+    <video width="400" controls>
+        <source src="symori_video.mov">
+    </video>
+
+    <!--Table of current ratings -->
+    <table>
+        <tr>
+          <th>Name</th>
+          <th>Rating</th>
+        </tr>
+        <tr>
+            <th>Jason Peng</th>
+            <th>4/5</th>
+        </tr>
+        <tr>
+            <th>Samson Jue</th>
+            <th>10/5</th>
+        </tr>
+      </table>
+
+      <!--Form to submit ratings out of 10. 3 boxes to type in and a submit button-->
+    <form action="https://formspree.io/f/mpznknja" method="POST">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value=""><br><br>
+        <label for="rating">Rating out of 5:</label><br>
+        <input type="text" id="rating" rating="rating" value=""><br><br>
+        <button type="submit">Send</button>
+      </form> 
+
+      <!--Some music to listen to-->
+      <div>
+        <audio controls>
+            <source src="classic music.mp3" type="audio/mpeg">
+          </audio>
+          <p>Some Music</p>
+      </div>
+
+      <!--Footer at the bottom with the copyright symbol -->
+      <nav class="footer">
+        <p>&copy;</p>
+      </nav>
+</body>
+</html>
